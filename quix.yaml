@@ -218,7 +218,7 @@ deployments:
         value: mlresult
   - name: "\U0001F4E1 OTEL Collector"
     application: OTEL Collector
-    deploymentType: Job
+    deploymentType: Service
     version: 3ac013ffe5943c4e9b4edf81c6622c2b3a520beb
     resources:
       cpu: 200
