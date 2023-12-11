@@ -224,6 +224,9 @@ deployments:
       cpu: 200
       memory: 500
       replicas: 1
+    publicAccess:
+      enabled: true
+      urlPrefix: otelcollector-41ef1ef
     desiredStatus: Running
     variables: []
 
