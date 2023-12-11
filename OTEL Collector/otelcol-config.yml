@@ -8,7 +8,7 @@ receivers:
     protocols:
       grpc:
       http:
-        endpoint: 0.0.0.0:80
+        endpoint: 0.0.0.0:55690
 
 exporters:
   influxdb:
