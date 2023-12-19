@@ -229,25 +229,6 @@ deployments:
       urlPrefix: otelcollector-41ef1ef
     desiredStatus: Stopped
     variables: []
-  - name: Starter transformation
-    application: Starter transformation
-    deploymentType: Service
-    version: f5ccdcb8332b3a88e52fb313cf9d20e93aefc7c2
-    resources:
-      cpu: 200
-      memory: 500
-      replicas: 1
-    desiredStatus: Stopped
-    variables:
-      - name: input
-        inputType: InputTopic
-        description: Name of the input topic to listen to.
-        required: false
-      - name: output
-        inputType: OutputTopic
-        description: Name of the output topic to write to.
-        required: false
-        value: transform
 
 # This section describes the Topics of the data pipeline
 topics:
